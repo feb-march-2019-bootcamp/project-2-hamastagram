@@ -10,7 +10,77 @@
 <body>
     
   
-        <div class="center"></div>
+
+        
+
+        <h1 id="title">Hama Survey</h1>
+        <p id="description">Hello this is a survey from TechWave to improve User Experience</p>
+   
+<div class="bg">
+    <form class="container" action="" id="survey-form"> 
+
+            <div class="form-row">
+                <label id="name-label" for="name"><span>Name</span></label>
+                <input type="text" id="name" placeholder="Enter your name" required name="name" id="name">
+            </div>
+            
+            <div class="form-row">
+                <label id="email-label" for="email"><span>Email</span></label>
+                <input id="email" type="email" required placeholder="Enter your email" required name="email" id="email">
+            </div>
+
+            <div class="form-row">
+                    <label id="number-label" for="number"><span>Number</span></label>
+                    <input id="number" type="number" required placeholder="enter your age between 16-110" required name="number" id="number" min="16" max="110" >
+            </div>
+            
+            <div class="form-row">
+
+                <label for="dropdown">dropdown</label>
+                    <select name ="dropdown" id = "dropdown">
+                            <option value = "1">one</option>
+                            <option value = "2">two</option>
+                            <option value = "3">three</option>
+                            <option value = "4">four</option>
+                    </select>
+            </div>
+
+            <div class="form-row">
+                
+                    <label for="cakes" class="radiolabels">cakes</label>
+                    <input type="radio" name="cakes" value="pancake" checked> pancake<br>
+                    <input type="radio" name="cakes" value="biscuit"> 
+                    <input type="radio" name="cakes" value="biscuit"> biscuit
+            </div>
+
+
+            <div class="form-row">
+                
+                <label class="radiolabels" for="fruits">fruits</label>
+                    <input type="radio" name="fruits" value="fruits"> banana
+                    <input type="radio" name="fruits" value="fruits"> apple
+                    <input type="radio" name="fruits" value="fruits"> orange
+                
+            </div>
+
+            <div class="form-row">
+    
+                           <label class="checkboxes" for="fruit">nesscafe</label> <input name="nesscafe" type="checkbox" value="fruit">
+                           <label class="checkboxes" for="fruit">tea</label> <input name="tea" type="checkbox" value="fruit">
+                           <label class="checkboxes" for="fruit">juice</label> <input name="juice" type="checkbox" value="fruit">
+
+            </div>
+           
+            <textarea name="textarea" id="textarea" cols="30" rows="5" rows="10" placeholder="please let us know if you have any comments"></textarea>
+
+            <div class="form-row"></div>
+            <input class="submit" type="submit">
+            </div>
+    </form>
+</div>
+
+        
 
 </body>
 </html>
+
